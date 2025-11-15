@@ -1,3 +1,5 @@
+`go build -o urlsfilt urlsfilt.go
+`
 ``` # Filter out URLs containing "www."
 ./urlsfilt -i urls.txt -f www.
 
